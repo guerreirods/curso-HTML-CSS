@@ -50,29 +50,24 @@ main {
 }
 
 section {
-    height: 1400px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
     background-color: white;
 }
 
 section > p {
-    padding: 62px 30px;
-    line-height: 2em;
-    text-shadow: 1px solid black;
-}
-
-#first{
-    height: 600px;
+    padding-bottom: 2em;
 }
 
 section.img1 {
     background: black url('../imagens/background001.jpg') center center no-repeat fixed;
     height: 700px;
-    position: relative;
     box-shadow: inset 0px 16px 16px rgba(0, 0, 0, 0.479);
 }
 
 section.img2 {
-    position: relative;
     background: black url('../imagens/background002.jpg') center center no-repeat fixed;
     box-shadow: inset 0px 16px 16px rgba(0, 0, 0, 0.479);
     height: 700px;
@@ -81,7 +76,6 @@ section.img2 {
 div.imgtext {
     background-color: rgba(0, 0, 0, 0.486);
     color: white;
-    position: absolute;
     left: 30px;
     top: 30px;
     max-width: 600px;
